@@ -8,41 +8,39 @@
 
 ## Objetivo
 
-El reto consiste en maquetar la web **AppLove**, este es el resultado final:
+El reto consiste en maquetar la web **AppLove**, cuyo resultado final es:
 
 ![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png)
 
 ## Contenido
 
-- Encontrarás un archivo base `index.html` el cual contiene una estructura inicial sobre la que deberás completar tu proyecto.
+Este proyecto contiene:
 
-- En la carpeta `css` tendrás un archivo base `main.css` donde hay clases reutilizables, quiere decir que dichas clases pueden ser usadas más de una vez. Por ejemplo:
+1. Un archivo `index.html` que contiene la estructura inicial de la página web. Este debe respetar los siguientes parámetros:
+  * El tipo de fuente a utilizar será `Raleway`.
+  * Indentación.
+  * Uso de comentarios para hacer el código más legible
 
-    ```CSS
-    .text-uppercase {
-      text-transform: uppercase;
-    }
-    ```
+  A su vez, debe contener las siguientes secciones:
+  * Un encabezado fijo.
+  * Una primera sección con una imagen de fondo, tres líneas de texto y un botón.
+  * Una segunda sección con una línea de textos, un párrafo y tres columnas, las que contienen una imagen, una línea de texto seguida de tres línea de texto con un menor tamaño.
+  * Una tercera sección con una línea de texto, un párrafo y una imagen.
+  * Una cuarta sección con un encuadre de imágenes con un pie de imagen, respectivamente.
+  * Un pie de página.
 
-    >Si usamos la clase `.text-uppercase` en algún texto lo que hará es ponerlo en mayúsculas. De esta manera podrás reutilizar esta clase varias veces. **No olvides enlazar tu archivo `CSS` a tu `HTML`**.
+2. Una carpeta `css` que contiene un archivo `main.css` donde hay clases reutilizables y clases específicas. Este debe respetar los siguientes parámetros:
+  * El tipo de fuente a utilizar será `Raleway`.
+  * Indentación.
+  * Uso de comentarios para hacer el código más legible.
+  * Pixel perfect.
 
-- El `header` tiene que estar **estático**, como se muestra en la siguiente _imagen gif_:
+3. Una carpeta `assets` donde se encuentra la carpeta `images` con todas las imágenes que se incluyen en la página web.  Los formatos con los que cuentan estas imágenes son **jpg** y **png**.
 
-![AppLove-gif](https://fotos.subefotos.com/da068e44cb72b36ba6c4458130c00185o.gif)
+4. Un archivo  **`README.md`** que explica el contenido del repositorio.
 
-- Dentro de la carpeta `assets` se encuentra la carpeta `images` donde encontrarás todas las imágenes necesarias para completar tu proyecto.
+## Autora
+Lizbeth Félix Peña
 
-- Deberás **actualizar el archivo `README.md`** explicando el contenido de tu repositorio.
-
-- El tipo de fuente a utilizar será `Raleway`.
-
-## Consideraciones generales
-
-Este reto sera evaluado sobre lo siguiente:
-
-- Pixel perfect (replicar el diseño con exactitud)
-- Nombramiento de clases, id, etc
-- Indentación
-- Estructura de tus archivos
-- Archivo `README.md` actualizado y correctamente redactado
-- Uso de comentarios para hacer tu código más legible
+## Fecha
+24/10/2017
