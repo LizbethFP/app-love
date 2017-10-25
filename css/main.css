@@ -70,7 +70,18 @@ a:hover {
   text-transform: uppercase;
 }
 
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+/*clases específicas*/
+
+section {
+  text-align: center;
+}
+
+section div {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*Encabezado*/
 header {
   background-color: #fff;
   margin-top: 0;
@@ -96,6 +107,8 @@ header figure {
   width: 10%;
 }
 
+
+/*Primera sección*/
 .background {
   margin-left: 0;
   position: relative;
@@ -137,15 +150,7 @@ header figure {
   color: #E95853;
 }
 
-section {
-  text-align: center;
-}
-
-section div {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
+/*Segunda sección*/
 .block-2 {
   background-color: #f17c72;
   font-size: 14px;
@@ -172,6 +177,8 @@ h5, h6 {
   margin-bottom: 5px;
 }
 
+/*Tercera sección*/
+
 div figure {
   display: inline-block;
   text-align: center;
@@ -192,6 +199,7 @@ figure figcaption {
   padding: 15px;
 }
 
+/*Pie de página*/
 footer {
   background-color: #373b47;
   padding: 8px;
@@ -199,5 +207,5 @@ footer {
 
 footer p {
   color: #fff;
-  text-align: center;  
+  text-align: center;
 }
