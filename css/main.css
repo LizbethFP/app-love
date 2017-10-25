@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -70,4 +71,133 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  background-color: #fff;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 100px;
+  position: fixed;
+}
 
+header div {
+  display: inline-block;
+}
+header div a {
+  display: inline-block;
+  padding: 15px;
+}
+
+header figure {
+  /*float: right;*/
+  display: inline-block;
+}
+
+.logo {
+  width: 10%;
+}
+
+.background {
+  margin-left: 0;
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
+
+.background-text {
+  color: #fff;
+  display: block;
+  left: 450px;
+  top: 220px;
+  position: absolute;
+}
+
+.background-text h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.background-text p {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.background-text button {
+  background-color: #2ecc71;
+  border: none;
+  margin-top: 80px;
+  padding: 15px;
+}
+
+.background-text button a {
+  color: #fff;
+}
+
+.background-text button a:hover {
+  color: #E95853;
+}
+
+section {
+  text-align: center;
+}
+
+section div {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.block-2 {
+  background-color: #f17c72;
+  font-size: 14px;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+.block-2 h2, .block-2 h4, .block-2 h5, .block-2 h6 {
+  color: #fff;
+}
+
+.column-1, .column-2, .column-3 {
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+}
+
+.column-1 figure, .column-2 figure, .column-3 figure {
+  width: 90%;
+}
+
+h5, h6 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div figure {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+
+.pack figure {
+  display: inline-block;
+  width: 22%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+figure figcaption {
+  padding: 15px;
+}
+
+footer {
+  background-color: #373b47;
+  padding: 8px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;  
+}
